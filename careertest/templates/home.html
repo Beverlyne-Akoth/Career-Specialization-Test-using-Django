@@ -1,0 +1,25 @@
+{%  extends 'base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+</head>
+<body>
+    <div class="body">
+        {% block content %}
+        <form action="next_page1">
+            <div class="body_main">
+                <h1>Welcome To TheLense, your career tract path-finder</h1>
+                <h3>Did you know, the first step to growing yoursel if knowing yourself?</h3>
+                <h3>Else how can you work on what you do not know?</h3>
+                <p>Please take test to discover which specialisation tract in the IT field is best suited for you</p>
+                <input type="submit" value="Start The Test" class="btn_test"> 
+            </div>
+        </form>
+        {% endblock %}
+    </div>
+</body>
+</html>
